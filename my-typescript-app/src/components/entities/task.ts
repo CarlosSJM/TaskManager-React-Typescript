@@ -6,7 +6,7 @@ class Task {
     }
 
     /**
-     * bloque -> 1 variable, getter y/o setter
+     * bloque -> 1 variable, his getter &/or his setter if is neccesary
      * */
 
     private _id: number;

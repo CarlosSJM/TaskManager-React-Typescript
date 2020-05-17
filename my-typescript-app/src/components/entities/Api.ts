@@ -35,3 +35,19 @@ class Api {
 }
 
 export default  Api;
+
+/** formas de borrar un itm con ts o js
+*1 Con filter
+ * onDeleteItem(id: number) {
+    this.list = this.list.filter(item => item.id !== id);
+}
+ *2 con .splice()
+ * const index: number = functionToGetTheIndex();
+ this.list.splice(index, 1);
+ *pero necesitamos en index del array con splice necesitamos  obtenerlos
+ * for(var i = 0; i < this.list.length; i++) {
+   if(this.list[i].id === id) {
+     return i;
+   }
+}
+ * */
